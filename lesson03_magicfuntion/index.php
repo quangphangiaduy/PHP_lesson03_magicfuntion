@@ -4,3 +4,6 @@ $hello = new MyClass(array(
     'name'=>'myname',
     'pass'=>123
 ));
+$hello = new MyClass();
+$hello ->name ='me';
+isset($hello->name);
