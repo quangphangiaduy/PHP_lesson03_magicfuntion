@@ -6,3 +6,4 @@ $hello = new MyClass(array(
 ));
 $hello = new MyClass();
 $hello ->name ='me';
+isset($hello->name);

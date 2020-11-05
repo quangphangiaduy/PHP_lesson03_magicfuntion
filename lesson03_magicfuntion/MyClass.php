@@ -7,4 +7,9 @@ class MyClass{
     {
         echo "key: $key - value: $value";
     }
+    public function __isset($name)
+    {
+        echo "thuoc tinh kiem tra khong ton tai $name";
+    }
+   
 }
