@@ -1,9 +1,7 @@
 <?php
 include 'MyClass.php';
-$hello = new MyClass(array(
+$hello = new MyClass();
+$hello -> notExsitMethod(array(
     'name'=>'myname',
     'pass'=>123
 ));
-$hello = new MyClass();
-$hello ->name ='me';
-isset($hello->name);
