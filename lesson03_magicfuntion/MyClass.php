@@ -1,8 +1,7 @@
 <?php
 class MyClass{
-    public function __callStatic($name, $arguments)
+    public function __toString()
     {
-        echo "$name \n";
-        var_dump($arguments);
+        echo "hello new work";
     }
 }
