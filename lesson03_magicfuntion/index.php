@@ -1,7 +1,7 @@
 <?php
 include 'MyClass.php';
 $hello = new MyClass();
-$hello -> notExsitMethod(array(
+$hello :: notExsitStaticMethod(array(
     'name'=>'myname',
     'pass'=>123
 ));
